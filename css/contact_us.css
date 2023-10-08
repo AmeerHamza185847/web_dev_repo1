@@ -34,30 +34,42 @@
 /* address section styling starts here */
 
 .address_icon{
-    font-size: 50px;
+    font-size: 40px;
 }
 address p{
-    line-height: 10px;
+    line-height: 8px;
 }
 
 .phone_icon{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .email_icon{
-    font-size: 50px;
+    font-size: 32px;
+}
+.whatsapp_icon{
+    font-size: 34px;
 }
 
 .address_row{
-    margin-bottom: 75px;
+    margin-bottom: 15px;
 }
 
 .phone_row{
-    margin-bottom: 75px;
+    margin-bottom: 20px;
+}
+.email_row{
+    margin-bottom: 20px;
+}
+.whatsapp_row{
+    margin-bottom: 15px;
 }
 
+.sms_icon{
+    font-size: 35px;
+}
 .after_nav{
-    margin-top: 75px;
+    margin-top: 20px;
 }
 /* address section styling ends here */
 

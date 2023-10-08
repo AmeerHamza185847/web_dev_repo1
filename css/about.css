@@ -32,3 +32,30 @@
     text-decoration: underline;
 }
 
+/* address styling starts here */
+.address_icon{
+    font-size: 40px;
+}
+address p{
+    line-height: 10px;
+}
+
+.phone_icon{
+    font-size: 40px;
+}
+
+.email_icon{
+    font-size: 40px;
+}
+
+.address_row{
+    margin-bottom: 75px;
+}
+
+.phone_row{
+    margin-bottom: 75px;
+}
+
+/* address styling ends here */
+
+
