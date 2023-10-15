@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" href="bootsrap/bootstrap.min.css">
+    <script src="bootsrap/jquery.slim.min.js"></script>
+    <script src="bootsrap/popper.min.js"></script>
+    <script src="bootsrap/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- accordian section starts here -->
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    <span>Q#1</span><span class="ml-2">What is a marble made of?
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Marble is a rock composed of calcium and magnesium carbonate, mostly white and pink.
+                                Common marble varieties are granular limestone or dolomite.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <span>Q#1</span><span class="ml-2">What are the uses of marble?
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Marbles are used principally for buildings and monuments, interior decoration, statuary,
+                                table tops, and novelties. Colour and appearance are their most important qualities.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>Q#1</span><span class="ml-2"> Which marble is best for home?
+                                    </span>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Makrana Pure White Marble. Makrana Marble is durable and becomes shinier with time and
+                                usage. ...
+                                Opal White Marble. ...
+                                White Sangemarmar Marble. ...
+                                Albeta White Marble. ...
+                                Albeta Beige Marble.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- accordian section ends here -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- javascript links section starts here -->
+</body>
+
+</html>
