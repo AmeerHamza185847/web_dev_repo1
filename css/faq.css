@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-brand{
+    color: black;
+}
+.navbar-brand:hover{
+    color: darkblue;
+}
+
+.custom_nav {
+    background-color: #82f873;
+}
+
+.navbar-nav{
+    margin-left: 50%;
+}
+
+.nav-link{
+    margin: 0px 20px 0px 20px;
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
