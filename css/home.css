@@ -3,14 +3,14 @@
     margin: 0px;
 }
 .navbar-brand{
-    color: white;
+    color: black;
 }
 .navbar-brand:hover{
-    color: yellow;
+    color: darkblue;
 }
 
 .custom_nav {
-    background-color: rgb(118, 179, 69);
+    background-color: #82f873;
 }
 
 .navbar-nav{
@@ -27,7 +27,7 @@
     font-weight: bold;
 }
 .nav-link:hover{
-    color: white;
+    color: darkblue;
     text-decoration: underline;
 }
 
